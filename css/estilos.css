@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #013B69;
+    font: 16px "Arial"
+}
+
+fieldset{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+fieldset legend{
+    text-align: center;
+    width: 50%;
+}
+
+fieldset legend img{
+    width: 99%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#comecar{
+    text-align: center;
+    padding: 10%;
+}
+
+#btn-comecar{
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.pergunta{
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    display: none;
+}
+
+.pergunta p{
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pergunta button{
+    text-align: center;
+    padding: 10px;
+    background: #013B69;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.pergunta ul{
+    list-style: none;
+}
+
+.pergunta ul li span{
+    border-radius: 50%;
+    background:#999 ;
+    color: #fff;
+    padding: 3px 8px 3px 8px;
+}
+
+.pergunta ul li label{
+    display: block;
+    margin: 5px 0 5px 0;
+    border: 1px solid #000;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.pergunta ul li label input{
+    width: 1px;
+    height: 1px;
+}
